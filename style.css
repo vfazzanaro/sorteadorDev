@@ -52,13 +52,15 @@ button:active {
   display: flex;
   gap: 20px;
   width: 100%;
-  max-width: 520px;
+  max-width: 342px;
+  justify-content: center;
 }
+
 
 input {
   flex: 1;
   height: 50px;
-  padding: 0 16px;
+  padding: 0 20px;
   background: #202024;
   border: none;
   border-radius: 8px;
@@ -77,4 +79,11 @@ input {
     font-size: 1.6rem;
     height: 60px;
   }
+}
+
+img {
+  max-width: 300px;
+  max-height: 190px;
+  width: auto;
+  height: auto;
 }
